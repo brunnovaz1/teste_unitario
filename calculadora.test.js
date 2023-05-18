@@ -1,3 +1,4 @@
+const calculo = require('./calculadora')
 describe('Testando a Calculadora', () => {
 test('1 + 2 = 3', () => {
 expect(calculo.somar(1, 2)).toBe(3)

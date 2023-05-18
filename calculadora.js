@@ -1,22 +1,19 @@
-function soma(a+b){
+function somar(a,b){
     return a+b
 }
-exports.soma = soma
+exports.somar=somar
 
-function subtrai(a,b){
-    return (a-b)
-
+function subtrair(a,b){
+    return a-b
 }
-exports.subtrai=subtrai
+exports.subtrair=subtrair
 
-function multiplica(a,b){
-    return (a*b)
-
+function multiplicar(a,b){
+    return a*b
 }
-exports.multiplica=multiplica
+exports.multiplicar=multiplicar
 
-function divide(a,b){
-    return (a/b)
-
+function dividir(a,b){
+    return a/b
 }
-exports.divide=divide
+exports.dividir=dividir
